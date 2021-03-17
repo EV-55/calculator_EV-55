@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/box"
+    android:layout_height="match_parent"
+    android:background="@color/grey_red"
+    tools:context=".MainActivity">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="220dp"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_weight="1">-->
+
+<!--    </LinearLayout>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="500dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/box">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/seven"-->
+<!--                style="@style/MyStyle"-->
+<!--                android:text="7" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/four"-->
+<!--                style="@style/MyStyle"-->
+<!--                android:text="4" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/one"-->
+<!--                style="@style/MyStyle"-->
+<!--                android:text="1" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_skobka1"-->
+<!--                style="@style/MyStyle_1"-->
+<!--                android:text="(" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/eight"-->
+<!--                style="@style/MyStyle"-->
+<!--                android:text="8" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/five"-->
+<!--                style="@style/MyStyle"-->
+<!--                android:text="5" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/two"-->
+<!--                style="@style/MyStyle"-->
+<!--                android:text="2" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/zero"-->
+<!--                style="@style/MyStyle"-->
+<!--                android:text="0" />-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/skobka2"-->
+<!--                style="@style/MyStyle_1"-->
+<!--                android:text=")" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/nine"-->
+<!--                style="@style/MyStyle"-->
+<!--                android:text="9" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/six"-->
+<!--                style="@style/MyStyle"-->
+<!--                android:text="6" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/three"-->
+<!--                style="@style/MyStyle"-->
+<!--                android:text="3" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/zap"-->
+<!--                style="@style/MyStyle_1"-->
+<!--                android:text="," />-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_ymn"-->
+<!--                style="@style/MyStyle_1"-->
+<!--                android:text="X" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_raz"-->
+<!--                style="@style/MyStyle_1"-->
+<!--                android:text=":" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/min"-->
+<!--                style="@style/MyStyle_1"-->
+<!--                android:text="-" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/pls"-->
+<!--                style="@style/MyStyle_1"-->
+<!--                android:text="+" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/ok"-->
+<!--                style="@style/MyStyle_1"-->
+<!--                android:text="=" />-->
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="194dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/ex"
+                style="@style/MyStyle_WIN"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/result"
+                style="@style/MyStyle_WIN"
+                android:text="" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:id="@+id/tv_ac"
+                style="@style/MyStyle1"
+                android:scaleType="center"
+                android:src="@mipmap/ac" />
+
+            <TextView
+                android:id="@+id/tv_skobka1"
+                style="@style/MyStyle1"
+                android:text="(" />
+
+            <TextView
+                android:id="@+id/skobka2"
+                style="@style/MyStyle1"
+                android:text=")" />
+
+            <TextView
+                android:id="@+id/min"
+                style="@style/MyStyle1"
+                android:text="-" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/seven"
+                style="@style/MyStyle"
+                android:text="7" />
+            <TextView
+                android:id="@+id/eight"
+                style="@style/MyStyle"
+                android:text="8" />
+            <TextView
+                android:id="@+id/nine"
+                style="@style/MyStyle"
+                android:text="9" />
+
+            <TextView
+                android:id="@+id/tv_raz"
+                style="@style/MyStyle1"
+                android:text="/" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/six"
+                style="@style/MyStyle"
+                android:text="6" />
+            <TextView
+                android:id="@+id/five"
+                style="@style/MyStyle"
+                android:text="5" />
+            <TextView
+                android:id="@+id/four"
+                style="@style/MyStyle"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/pls"
+                style="@style/MyStyle1"
+                android:text="+" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/three"
+                style="@style/MyStyle"
+                android:text="3" />
+            <TextView
+                android:id="@+id/two"
+                style="@style/MyStyle"
+                android:text="2" />
+            <TextView
+                android:id="@+id/one"
+                style="@style/MyStyle"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/tv_ymn"
+                style="@style/MyStyle1"
+                android:text="x" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/back"
+                style="@style/MyStyle1"
+                android:clickable="false"
+                android:src="@mipmap/back"
+                android:scaleType="center"/>
+
+            <TextView
+                android:id="@+id/zero"
+                style="@style/MyStyle"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/zap"
+                style="@style/MyStyle1"
+                android:text="," />
+
+            <TextView
+                android:id="@+id/ok"
+                style="@style/MyStyle1"
+                android:text="=" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
